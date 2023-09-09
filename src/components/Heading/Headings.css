@@ -1,0 +1,22 @@
+/* Headings.css */
+.heading {
+	font-weight: bold;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	line-height: 1.2;
+	margin-bottom: 8px;
+}
+
+/* Heading Sizes */
+:root {
+	--heading-sm: 1.25rem;
+	--heading-md: 1.5rem;
+	--heading-lg: 2rem;
+	--heading-xl: 2.5rem;
+	--heading-2xl: 3rem;
+	--heading-3xl: 3.75rem;
+	--heading-4xl: 4.5rem;
+	--heading-5xl: 6rem;
+}
