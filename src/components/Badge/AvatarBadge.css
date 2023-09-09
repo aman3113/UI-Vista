@@ -1,0 +1,13 @@
+.avatar-badge {
+	position: absolute;
+	bottom: 9px;
+	right: 9px;
+	z-index: 1;
+	background-color: #007bff; /* Default badge background color */
+	color: #fff; /* Default badge text color */
+	border-radius: 50%; /* Make it circular */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.75em; /* Adjust font size */
+}

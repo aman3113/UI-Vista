@@ -1,0 +1,12 @@
+.dismiss-button {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	background-color: transparent;
+	border: none;
+	color: #007bff;
+	cursor: pointer;
+}
+.dismiss-button:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+/* Avatar.css */
+.avatar-container {
+	display: inline-block;
+	position: relative;
+}
+.avatar {
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	text-align: center; /* Center the initials */
+	font-weight: bold; /* Make initials bold */
+}
+
+/* Default styles for the avatar */
+.avatar img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Add more styles based on type prop */
+.avatar.primary {
+	border-color: #007bff;
+}
+
+.avatar.secondary {
+	border-color: #6c757d;
+}
+
+/* Add more styles based on size prop */
+.avatar.small {
+	width: 40px;
+	height: 40px;
+	font-size: 14px; /* Adjust font size for small avatars */
+}
+
+.avatar.medium {
+	width: 60px;
+	height: 60px;
+	font-size: 16px; /* Adjust font size for medium avatars */
+}
+
+.avatar.large {
+	width: 80px;
+	height: 80px;
+	font-size: 20px; /* Adjust font size for large avatars */
+}
+
+/* Styles for displaying initials */
+.avatar-initials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	font-size: inherit;
+	background-color: #007bff; /* Background color for initials */
+	color: #fff; /* Text color for initials */
+}
