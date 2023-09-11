@@ -44,13 +44,13 @@ const Header = ({ theme, setTheme }) => {
 		}
 	}
 	return (
-		<header className="h-[10vh] min-h-[50px] p-2 flex items-center justify-between shadow-md shadow-gray-800">
+		<header className="h-[10vh] min-h-[50px] p-2 flex items-center justify-between shadow-md shadow-gray-800 z-10">
 			<Link to="/">
 				<img className="w-[200px] hidden sm:block" src={logo} alt="" />
 				<img className="w-[80px] sm:hidden" src={smallLogo} alt="" />
 			</Link>
 			<div
-				className=" hidden md:flex w-[50%] gap-2 items-center p-2 rounded-md border border-black cursor-pointer"
+				className=" hidden md:flex w-[50%] gap-2 items-center p-2 rounded-md border border-black cursor-pointer dark:bg-gray-600"
 				onClick={() => setOpenModal(true)}
 			>
 				<AiOutlineSearch />

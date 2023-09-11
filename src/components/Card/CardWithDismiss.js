@@ -3,9 +3,9 @@ import React from "react";
 import Card from "./Card";
 import "./CardWithDismiss.css";
 
-function CardWithDismiss({ children, onDismiss }) {
+function CardWithDismiss({ children, onDismiss, width, height }) {
 	return (
-		<Card>
+		<Card width={width} height={height}>
 			{children}
 			<button className="dismiss-button" onClick={onDismiss}>
 				Dismiss

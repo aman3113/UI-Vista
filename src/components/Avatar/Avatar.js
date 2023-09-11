@@ -2,7 +2,7 @@
 import React from "react";
 import "./Avatar.css";
 
-function Avatar({ name, size, type, src, children }) {
+function Avatar({ name, size, type, src, children, bg }) {
 	// Calculate styles based on props
 	const avatarStyles = {
 		width: size,
@@ -16,7 +16,11 @@ function Avatar({ name, size, type, src, children }) {
 	} else {
 		// Display the first letter of the name if src is not provided
 		const initials = name ? name.charAt(0).toUpperCase() : "";
-		content = <div className="avatar-initials">{initials}</div>;
+		content = (
+			<div className="avatar-initials" style={{ backgroundColor: bg }}>
+				{initials}
+			</div>
+		);
 	}
 
 	return (

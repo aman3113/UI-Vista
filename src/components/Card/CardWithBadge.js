@@ -3,9 +3,9 @@ import React from "react";
 import Card from "./Card";
 import "./CardWithBadge.css";
 
-function CardWithBadge({ children, badge }) {
+function CardWithBadge({ children, badge, width, height }) {
 	return (
-		<Card>
+		<Card width={width} height={height}>
 			{children}
 			<div className="badge">{badge}</div>
 		</Card>

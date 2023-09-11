@@ -3,6 +3,8 @@
 	color: #007bff;
 	text-decoration: none;
 	font-weight: bold;
+	padding: 2px 8px;
+	border-radius: 10px;
 }
 
 .link-button:hover {
@@ -37,7 +39,7 @@
 }
 
 .ghost:hover {
-	background-color: #f5f5f5;
+	background-color: #b3b2b2;
 }
 
 /* Sizes */

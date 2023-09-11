@@ -10,7 +10,7 @@ import AvatarPage from "./documentation/Pages/AvatarPage";
 import ButtonPage from "./documentation/Pages/ButtonPage";
 import BadgePage from "./documentation/Pages/BadgePage";
 import CardPage from "./documentation/Pages/CardPage";
-import HeadingPage from "./documentation/Pages/HeadingPage";
+import HeadingsPage from "./documentation/Pages/HeadingPage";
 import ImagePage from "./documentation/Pages/ImagePage";
 import TextPage from "./documentation/Pages/TextPage";
 import InstallationPage from "./documentation/Pages/InstallationPage";
@@ -33,7 +33,7 @@ function App() {
 								<Route path="button" element={<ButtonPage />} />
 								<Route path="badge" element={<BadgePage />} />
 								<Route path="card" element={<CardPage />} />
-								<Route path="heading" element={<HeadingPage />} />
+								<Route path="heading" element={<HeadingsPage />} />
 								<Route path="image" element={<ImagePage />} />
 								<Route path="text" element={<TextPage />} />
 							</Route>

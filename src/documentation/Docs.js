@@ -8,7 +8,7 @@ const Docs = () => {
 			<div className="hidden md:block">
 				<SideBar />
 			</div>
-			<div className="p-2 overflow-y-auto w-full">
+			<div className="p-4 sm:pl-8 overflow-y-auto w-full mt-2">
 				<Outlet />
 			</div>
 		</div>

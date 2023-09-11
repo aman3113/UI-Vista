@@ -9,7 +9,7 @@ function Text({ size, color, lines, as, children }) {
 		fontWeight: as === "bold" ? "bold" : undefined,
 		fontStyle: as === "italic" ? "italic" : undefined,
 		textDecoration: as === "underline" ? "underline" : undefined,
-		background: as === "highlight" ? "yellow" : undefined,
+		background: as === "highlight" ? "#3BCC8C" : undefined,
 	};
 
 	return (

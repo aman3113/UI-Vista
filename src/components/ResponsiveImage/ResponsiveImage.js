@@ -22,6 +22,9 @@ function ResponsiveImage({
 			src={src || fallbackSrc}
 			alt={alt}
 			style={imageStyles}
+			onError={(e) => {
+				e.target.src = fallbackSrc; // Use the fallback image if src fails
+			}}
 		/>
 	);
 }
