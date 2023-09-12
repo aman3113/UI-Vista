@@ -23,7 +23,7 @@ function TextPage() {
 `;
 
 	const code3 = `
-<Text size="md" lines={2}>
+<Text size="md" lines="2">
 This is a long text that will be truncated after 2 lines.
 </Text>
 `;
@@ -66,7 +66,7 @@ This is a long text that will be truncated after 2 lines.
 			<div>
 				<h3 className="text-xl font-bold py-2">Text Truncation</h3>
 				<p className="pb-3">Truncate text after a certain number of lines.</p>
-				<Text size="md" lines={2}>
+				<Text size="md" lines="2">
 					This is a long text that will be truncated after 2 lines. Lorem ipsum,
 					dolor sit amet consectetur adipisicing elit. Facere ab natus tempora
 					vero cumque, necessitatibus vel delectus provident eum. Labore

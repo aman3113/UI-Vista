@@ -44,7 +44,7 @@ function ImagePage() {
 			<div>
 				<h3 className="text-xl font-bold py-2">Custom Image</h3>
 				<p className="pb-3">Customize image fit and border radius.</p>
-				<div className="flex gap-2">
+				<div className="flex gap-2 flex-wrap">
 					<ResponsiveImage
 						src={user2}
 						alt="Image Alt Text 2"

@@ -55,7 +55,7 @@ const SideBar = () => {
 					</AccordionPanel>
 				</AccordionItem>
 
-				<AccordionItem>
+				{/* <AccordionItem>
 					<AccordionButton>
 						<Box as="span" flex="1" textAlign="left">
 							Layout
@@ -63,7 +63,7 @@ const SideBar = () => {
 						<AccordionIcon />
 					</AccordionButton>
 					<AccordionPanel pb={4}>Installation</AccordionPanel>
-				</AccordionItem>
+				</AccordionItem> */}
 			</Accordion>
 		</div>
 	);

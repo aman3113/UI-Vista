@@ -14,6 +14,7 @@ import HeadingsPage from "./documentation/Pages/HeadingPage";
 import ImagePage from "./documentation/Pages/ImagePage";
 import TextPage from "./documentation/Pages/TextPage";
 import InstallationPage from "./documentation/Pages/InstallationPage";
+import ErrorPage from "./documentation/Pages/ErrorPage";
 
 function App() {
 	const [theme, setTheme] = useState("light");
@@ -26,7 +27,7 @@ function App() {
 						<Header theme={theme} setTheme={setTheme} />
 						<Routes>
 							<Route path="/" element={<Home />} />
-							<Route path="docs" element={<Docs />}>
+							<Route element={<Docs />}>
 								<Route path="install" element={<InstallationPage />} />
 								<Route path="alert" element={<AlertPage />} />
 								<Route path="avatar" element={<AvatarPage />} />
@@ -37,6 +38,7 @@ function App() {
 								<Route path="image" element={<ImagePage />} />
 								<Route path="text" element={<TextPage />} />
 							</Route>
+							<Route path="*" element={<ErrorPage />} />
 						</Routes>
 					</BrowserRouter>
 				</ChakraProvider>

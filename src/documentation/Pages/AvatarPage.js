@@ -23,7 +23,7 @@ const AvatarPage = () => {
 			<h2 className="text-3xl font-bold py-5">Avatar</h2>
 			<div className="mb-3">
 				<h3 className="text-2xl font-semibold">Usage</h3>
-				<div className="flex gap-2 py-2">
+				<div className="flex gap-2 py-2 flex-wrap">
 					<Avatar name="Aman" size="medium" />
 					<Avatar src={user1} size="medium" />
 					<Avatar src={user2} size="medium" type="primary" />

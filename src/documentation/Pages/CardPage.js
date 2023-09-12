@@ -32,7 +32,7 @@ function CardPage() {
 			<div className="my-4">
 				<h3 className="text-2xl font-semibold py-2">Simple Card</h3>
 				<p className="pb-3">A basic card component.</p>
-				<Card width="300px">
+				<Card width="250px">
 					<p>This is a simple card.</p>
 				</Card>
 				<CodeSnippet code={code1} />
@@ -41,7 +41,7 @@ function CardPage() {
 			<div className="my-4">
 				<h3 className="text-2xl font-semibold py-2">Card with Badge</h3>
 				<p className="pb-3">A card with a badge.</p>
-				<CardWithBadge badge="New" width="300px">
+				<CardWithBadge badge="New" width="250px">
 					<p>This card has a badge.</p>
 				</CardWithBadge>
 				<CodeSnippet code={code2} />
@@ -52,7 +52,7 @@ function CardPage() {
 				<p className="pb-3">A card with a dismiss button.</p>
 				<CardWithDismiss
 					onDismiss={() => alert("Card dismissed")}
-					width="300px"
+					width="250px"
 				>
 					<p>This card can be dismissed.</p>
 				</CardWithDismiss>
@@ -62,7 +62,7 @@ function CardPage() {
 			<div className="my-4">
 				<h3 className="text-2xl font-semibold py-2">Card with Text Overlay</h3>
 				<p className="pb-3">A card with text overlay.</p>
-				<CardWithTextOverlay overlayText="Overlay Text" width="300px">
+				<CardWithTextOverlay overlayText="Overlay Text" width="250px">
 					<p>This card has text overlay.</p>
 				</CardWithTextOverlay>
 				<CodeSnippet code={code4} />

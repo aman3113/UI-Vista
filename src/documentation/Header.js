@@ -44,7 +44,7 @@ const Header = ({ theme, setTheme }) => {
 		}
 	}
 	return (
-		<header className="h-[10vh] min-h-[50px] p-2 flex items-center justify-between shadow-md shadow-gray-800 z-10">
+		<header className="h-[10vh] min-h-[50px] p-2 flex items-center justify-between shadow-md shadow-gray-800 z-10 sticky top-0">
 			<Link to="/">
 				<img className="w-[200px] hidden sm:block" src={logo} alt="" />
 				<img className="w-[80px] sm:hidden" src={smallLogo} alt="" />
@@ -63,7 +63,7 @@ const Header = ({ theme, setTheme }) => {
 				>
 					<AiOutlineSearch />
 				</div>
-				<Link className="hover:text-green-500" to="/docs/install">
+				<Link className="hover:text-green-500" to="/install">
 					Docs
 				</Link>
 				<a
@@ -115,7 +115,7 @@ const Header = ({ theme, setTheme }) => {
 								{filteredComponents.map((component, idx) => (
 									<Link
 										key={idx}
-										to={`/docs/${component.path}`}
+										to={`/${component.path}`}
 										className="p-4 border-y hover:bg-green-200"
 										onClick={() => setOpenModal(false)}
 									>

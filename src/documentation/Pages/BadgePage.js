@@ -43,7 +43,7 @@ function BadgePage() {
 			<div>
 				<h3 className="text-xl font-semibold">Custom Badge</h3>
 				<p className="py-3">Customize badge with the outline variant.</p>
-				<div className="flex gap-3">
+				<div className="flex gap-3 flex-wrap">
 					<Badge variant="outline">Outline</Badge>
 					<Badge variant="solid">Solid</Badge>
 					<Badge variant="subtle">Subtle</Badge>
@@ -57,7 +57,7 @@ function BadgePage() {
 			<div>
 				<h3 className="text-xl font-semibold"> Colored Badge</h3>
 				<p className="py-3">Change the badge color scheme.</p>
-				<div className="flex gap-3">
+				<div className="flex gap-3 flex-wrap">
 					<Badge color="green" bgColor="orange">
 						Success
 					</Badge>

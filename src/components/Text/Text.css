@@ -3,6 +3,8 @@
 	word-wrap: break-word;
 	line-height: 1.4;
 	margin-bottom: 8px;
+	overflow: hidden;
+	word-wrap: break-word;
 }
 
 /* Text Sizes */

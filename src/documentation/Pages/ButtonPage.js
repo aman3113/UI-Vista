@@ -101,7 +101,7 @@ function ButtonPage() {
 			<div className="mb-3">
 				<h3 className="text-xl font-semibold py-2">Floating Action Button</h3>
 				<p>A floating action button with an icon.</p>
-				<div className="flex gap-2 py-3">
+				<div className="flex gap-2 py-3 flex-wrap">
 					<FloatingActionButton
 						icon="📷"
 						onClick={() => alert("Button clicked")}
@@ -127,7 +127,7 @@ function ButtonPage() {
 			<div className="mb-3">
 				<h3 className="text-xl font-semibold py-2">Icon Button</h3>
 				<p>An icon button with optional text.</p>
-				<div className="flex gap-2 py-3 items-start">
+				<div className="flex gap-2 py-3 items-start flex-wrap">
 					<IconButton
 						icon="🕑"
 						text="Send Message"
@@ -156,7 +156,7 @@ function ButtonPage() {
 			<div className="mb-3">
 				<h3 className="text-xl font-semibold py-2">Link Button</h3>
 				<p>A link button that navigates to a URL.</p>
-				<div className="flex gap-2 py-3">
+				<div className="flex gap-2 py-3 flex-wrap">
 					<LinkButton
 						text="Visit Website"
 						href="https://example.com"
@@ -182,7 +182,7 @@ function ButtonPage() {
 			<div className="mb-3">
 				<h3 className="text-xl font-semibold py-2">Primary Button</h3>
 				<p>A primary button for common actions.</p>
-				<div className="flex gap-2 py-3">
+				<div className="flex gap-2 py-3 flex-wrap">
 					<PrimaryButton
 						text="Submit Form"
 						onClick={() => alert("Button clicked")}
@@ -208,7 +208,7 @@ function ButtonPage() {
 			<div className="mb-3">
 				<h3 className="text-xl font-semibold py-2">Size</h3>
 				<p>A primary button for common actions.</p>
-				<div className="flex gap-2 py-3 items-center">
+				<div className="flex gap-2 py-3 items-center flex-wrap">
 					<FloatingActionButton
 						text="Submit Form"
 						icon="📷"
