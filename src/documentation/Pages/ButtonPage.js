@@ -208,7 +208,7 @@ function ButtonPage() {
 			<div className="mb-3">
 				<h3 className="text-xl font-semibold py-2">Size</h3>
 				<p>A primary button for common actions.</p>
-				<div className="flex gap-2 py-3">
+				<div className="flex gap-2 py-3 items-center">
 					<FloatingActionButton
 						text="Submit Form"
 						icon="📷"

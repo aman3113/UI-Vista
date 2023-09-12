@@ -1,0 +1,47 @@
+/* Badge.css */
+.badge {
+	display: inline-block;
+	padding: 0.25rem 0.5rem;
+	font-size: 0.875rem;
+	font-weight: 600;
+	border-radius: 0.25rem;
+	background-color: #d9e5f1;
+	color: #333;
+}
+
+/* Outline badge styles */
+.outline {
+	background-color: transparent;
+	border: 1px solid #1f2021;
+	color: #718096;
+}
+
+/* Colored badge styles */
+.success {
+	background-color: #48bb78;
+	color: white;
+}
+
+/* Additional variants */
+.remove {
+	background-color: #f56565;
+	color: white;
+}
+
+.new {
+	background-color: #4299e1;
+	color: white;
+}
+
+/* New variants */
+.solid {
+	background-color: #333;
+	color: white;
+}
+
+.subtle {
+	background-color: #f7fafc;
+	color: #718096;
+}
+
+/* You can add more variants and styles as needed */

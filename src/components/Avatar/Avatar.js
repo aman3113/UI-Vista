@@ -2,11 +2,12 @@
 import React from "react";
 import "./Avatar.css";
 
-function Avatar({ name, size, type, src, children, bg }) {
+function Avatar({ name, size, type, src, children, bg, border }) {
 	// Calculate styles based on props
 	const avatarStyles = {
 		width: size,
 		height: size,
+		border: border ? `2px solid ${border}` : undefined,
 	};
 
 	let content;
@@ -24,10 +25,8 @@ function Avatar({ name, size, type, src, children, bg }) {
 	}
 
 	return (
-		<div className="avatar-container">
-			<div className={`avatar ${size} ${type}`} style={avatarStyles}>
-				{content}
-			</div>
+		<div className="avatar-container" style={avatarStyles}>
+			<div className={`avatar ${size} ${type}`}>{content}</div>
 			{children && children}
 		</div>
 	);

@@ -16,3 +16,6 @@ export { default as Headings } from "./Heading/Headings.js";
 export { default as ResponsiveImage } from "./ResponsiveImage/ResponsiveImage.js";
 //Text
 export { default as Text } from "./Text/Text.js";
+//Badge
+export { default as Badge } from "./Badge/Badge.js";
+export { default as AvatarBadge } from "./Badge/AvatarBadge.js";

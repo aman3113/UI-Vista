@@ -1,9 +1,9 @@
 .avatar-badge {
 	position: absolute;
-	bottom: 9px;
-	right: 9px;
+	bottom: 2px;
+	right: 2px;
 	z-index: 1;
-	background-color: #007bff; /* Default badge background color */
+	background-color: #4dccb9; /* Default badge background color */
 	color: #fff; /* Default badge text color */
 	border-radius: 50%; /* Make it circular */
 	display: flex;

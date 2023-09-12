@@ -7,7 +7,7 @@ function CardWithBadge({ children, badge, width, height }) {
 	return (
 		<Card width={width} height={height}>
 			{children}
-			<div className="badge">{badge}</div>
+			<div className="card-badge">{badge}</div>
 		</Card>
 	);
 }
