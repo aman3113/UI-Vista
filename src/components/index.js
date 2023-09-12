@@ -19,3 +19,5 @@ export { default as Text } from "./Text/Text.js";
 //Badge
 export { default as Badge } from "./Badge/Badge.js";
 export { default as AvatarBadge } from "./Badge/AvatarBadge.js";
+//css
+export { default as uiStyle } from "./index.css";
