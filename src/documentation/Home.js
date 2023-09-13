@@ -28,7 +28,7 @@ const Home = () => {
 						<BsArrowRightShort />
 					</Link>
 					<a
-						href="https://github.com/aman3113"
+						href="https://github.com/aman3113/Vista-UI"
 						className="px-4 py-2 bg-gray-300 dark:bg-gray-400  rounded-md flex gap-2 items-center"
 					>
 						<span>Github</span> <BsGithub />

@@ -67,7 +67,7 @@ const Header = ({ theme, setTheme }) => {
 					Docs
 				</Link>
 				<a
-					href="https://github.com/aman3113"
+					href="https://github.com/aman3113/Vista-UI"
 					target="_blank"
 					rel="noreferrer"
 					className="hover:text-green-500"
