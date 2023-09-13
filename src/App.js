@@ -15,6 +15,7 @@ import ImagePage from "./documentation/Pages/ImagePage";
 import TextPage from "./documentation/Pages/TextPage";
 import InstallationPage from "./documentation/Pages/InstallationPage";
 import ErrorPage from "./documentation/Pages/ErrorPage";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
 	const [theme, setTheme] = useState("light");
@@ -41,6 +42,7 @@ function App() {
 							<Route path="*" element={<ErrorPage />} />
 						</Routes>
 					</BrowserRouter>
+					<Analytics />
 				</ChakraProvider>
 			</div>
 		</div>
